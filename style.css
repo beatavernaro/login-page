@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #424242;
+}
+
+/* Box atras de tudo para centralizar elementos */
+.box-mae{
+    background-color: #424242;
+    height: 97.5vh;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container para centralizar area da imagem e area do login */
+.box-login{
+    background-color: rgb(230, 243, 255, 0.75);
+    height: 600px;
+    width: 800px;
+    border-radius: 5px;
+    /* Sombra como se a caixa estivesse em cima da tela */
+    box-shadow: 0 0 1em gray
+    }
+
+/* Imagem da tela de login */
+.imagem-login{
+    height: 600px;
+    width: 365px;
+    position:absolute;
+}
+
+/*box para alinhas elementos da area de login */
+.input-login{
+    height: 600px;
+    width: 435px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-left: 365px;
+}
+
+
+#titulo{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 65px;
+    margin-left: 80px;
+    font-size: 27px;
+    text-align: center;
+    color: #7A2C22;
+    width: 274px;
+    height: 42px;
+}
+
+/*box para centralizar formulário */
+#box-form{
+    width: 334px;
+    height: 294px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 51px;
+
+}
+
+/* Formatar labels do formulario */
+.label{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 500px;
+    font-size: 12px;
+    color: #7A2C22;
+}
+
+.input-box {
+    margin-top: 4px;
+    background-color: #EFF0F2;
+    border-radius: 4px;
+    width: 312px;
+    height: 33px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #a0a0a0;
+    padding-left: 20px;
+}
+
+
+.botao {
+    background-color: #D24349;
+    text-align: center;
+    width: 186px;
+    height: 33px;
+    /* container do form dividido por 2, botão dividido por 2, subtrai um resoltado do outro */
+    margin-left: 74px ;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.botao:hover{
+    background-color: #E17E7D;
+}
+
+/* Already have an account */
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    color: #7A2C22;
+}
+
+a {
+    text-decoration: none;
+    color: #D24349;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.auto-login{
+    color: #7A2C22;
+    width: 160px;
+    height: 34px;
+    border: 1.4px solid #D2D2D2;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    /* flex para alinhar conteudo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auto-login:hover{
+    background-color: #ece8e8;
+}
+/*imagem do logo no botão */
+.botao-logo{
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+}
+
+#alinha-botao{
+    display: flex;
+    justify-content: space-between;
+    width: 334px;
+    margin-left: 51px;
+}
+
